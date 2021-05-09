@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="inpCode"></input>
+    <br>
+    <span id="spCode"></span>
+    <button id="butCode">看不清换一张</button>
+    <script>
+        // 获取操作的dom元素
+        let inpCode = document.getElementById('inpCode'),
+            spCode = document.getElementById('spCode'),
+            butCode = document.getElementById('butCode');
+        /* 
+         * queryCode: 获取四位随机数
+         * 参数: 无
+         * 返回值: 无
+         * 
+         */
+        function queryCode() {
+            // 准备要获取的字符串
+            let area = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+            let result = ''
+            // 循环四次获取随机字符加入到result
+            for (let i = 0; i < 4; i++) {
+                // 每次循环获取一个随机数
+                let ran = Math.round(Math.random() * 61)
+                result += area.charAt(ran)
+            }
+            // 将获取到的放到盒子里
+            spCode.innerHTML = result
+        }
+        queryCode()
+        // 点击变化
+        butCode.onclick = queryCode
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* 
+         * unique: 数组去重方法
+         * 参数: ary => 要去冲的数组
+         * 返回值: 去重后的数组
+         * by 春樹  on 2021-5-5
+         */
+        function unique(ary) {
+            let obj = {}
+            for (let i = 0; i < ary.length; i++) {
+                let item = ary[i]
+                if (obj[item] !== undefined) {
+                    // 存在相同的键值对时
+                    // 将最后一项替换到当前项
+                    ary[i] = ary[ary.length - 1]
+                    // 将最后一项删除
+                    ary.length--
+                    i--
+                }
+                // 不存在时
+                obj[item] = item
+            }
+            return ary
+        }
+        // let arr = [1,2,3,3,2,1,2,1]
+        console.log(unique([1, 2, 3, 3, 2, 1, 2, 1]));
+    </script>
+</body>
+
+</html>
