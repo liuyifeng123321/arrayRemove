@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T02:44:10.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="z6BdFmKyfF1qjk889vPm" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T02:52:54.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qMsVfpr9m_03vBnctNZz" version="21.0.6" type="github">
   <diagram name="第 1 页" id="cYCt0g9zkRtDHQeXJBKw">
     <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,24 @@
             <mxPoint x="370" y="650" as="sourcePoint" />
             <mxPoint x="420" y="600" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="790" as="sourcePoint" />
+            <mxPoint x="414" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;init_layout_sdk方法回调hook_setup函数并将其赋值给zjsdk2中的属性&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="720" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-25" target="cJAQ2IT-YWqgnm6LiaBg-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="720" as="sourcePoint" />
+            <mxPoint x="410" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-27" value="hook_setup方法调用了sdk2中getrawsdk进行请求数据,对请求到的数据在byapi_plat_mosicis中进行了处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="820" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
