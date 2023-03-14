@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T03:33:52.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kszbURnM0UcC1VmfucMO" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T03:52:53.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iVLEho2CAUehXCOZNKYC" version="21.0.6" type="github">
   <diagram name="第 1 页" id="cYCt0g9zkRtDHQeXJBKw">
-    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           <mxGeometry x="530" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-32" value="调用SDK中follow_plat_layout方法触发fire_layout_policy方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="709" y="615" width="120" height="60" as="geometry" />
+          <mxGeometry x="709" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-33" value="触发里面的_send_override_&lt;br&gt;clayout_for_one_div方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="709" y="725" width="120" height="60" as="geometry" />
@@ -151,7 +151,7 @@
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-34" value="触发里面的plat_layouts方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="709" y="835" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-35" value="plat_layouts方法for循环plat_layouts中的数据计算流分辨率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-35" value="guess_reso_&lt;br&gt;from_layoutid方法for循环plat_layouts中的数据计算流分辨率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="709" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-28">
@@ -188,10 +188,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="670" width="460" height="220" as="geometry" />
+          <mxGeometry x="1220" y="860" width="460" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-44" value="OnePaneCoord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="695" width="160" height="144" as="geometry" />
+          <mxGeometry x="1270" y="885" width="160" height="144" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-45" value="+ x: number&lt;br&gt;+ y: number&lt;br&gt;+ w: number&lt;br&gt;+ h: number&lt;br&gt;+ z: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cJAQ2IT-YWqgnm6LiaBg-44">
           <mxGeometry y="26" width="160" height="84" as="geometry" />
@@ -203,7 +203,7 @@
           <mxGeometry y="118" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-52" value="oneLayoutcoords" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="695" width="150" height="144" as="geometry" />
+          <mxGeometry x="1490" y="885" width="150" height="144" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-53" value="+ layout_id: string&lt;br&gt;+ layout_name: string&lt;br&gt;+ mosic_cnts: number&lt;br&gt;+ layout_coords: Array&amp;lt;OnePaneCoord&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cJAQ2IT-YWqgnm6LiaBg-52">
           <mxGeometry y="26" width="150" height="84" as="geometry" />
@@ -216,12 +216,54 @@
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-57" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-45" target="cJAQ2IT-YWqgnm6LiaBg-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="780" as="sourcePoint" />
-            <mxPoint x="910" y="780" as="targetPoint" />
+            <mxPoint x="1230" y="970" as="sourcePoint" />
+            <mxPoint x="1150" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-58" value="计算数据类图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="980" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="1220" y="830" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-60" value="在add_one_div中将plat_layouts作为属性值给到UI中的set_option方法进行参数设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1060" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-31" target="cJAQ2IT-YWqgnm6LiaBg-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1030" as="sourcePoint" />
+            <mxPoint x="820" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-62" value="触发set_layout_id方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-63" value="利用设置好的参数layout_coords在set_layout_id方法计算宽高信息然后new panelUI实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1060" width="150" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-65" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="640" as="sourcePoint" />
+            <mxPoint x="1020" y="645" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="640" as="sourcePoint" />
+            <mxPoint x="960" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.549;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-62" target="cJAQ2IT-YWqgnm6LiaBg-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="1060" as="sourcePoint" />
+            <mxPoint x="980" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-60" target="cJAQ2IT-YWqgnm6LiaBg-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="1060" as="sourcePoint" />
+            <mxPoint x="980" y="1010" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
