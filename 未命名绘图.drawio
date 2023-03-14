@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T08:18:26.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="de5H8zbTs6ixGIXVjL_Z" version="21.0.6" type="github">
-  <diagram name="第 1 页" id="cYCt0g9zkRtDHQeXJBKw">
-    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-03-14T08:28:01.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8tPQZqscBu9tpeBblJeS" version="21.0.6" type="github" pages="2">
+  <diagram name="sdk2" id="cYCt0g9zkRtDHQeXJBKw">
+    <mxGraphModel dx="4780" dy="2547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -552,6 +552,26 @@
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-160" value="检测到vuex数据变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1400" y="390" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-161" value="window.addeventlister&lt;br&gt;接受到消息触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-162" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-156" target="cJAQ2IT-YWqgnm6LiaBg-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="990" as="sourcePoint" />
+            <mxPoint x="1390" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5unGKOHhGhPuUgd2Y9Oi" name="sdk3">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
