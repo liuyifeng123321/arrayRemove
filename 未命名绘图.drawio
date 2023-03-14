@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T07:53:38.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_SfG4hMpz6ltSxIEVNnR" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T07:56:30.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="f8F4gOu37WuRpS24a8_2" version="21.0.6" type="github">
   <diagram name="第 1 页" id="cYCt0g9zkRtDHQeXJBKw">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4780" dy="2547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-152" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="2880" height="1370" as="geometry" />
+        </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-1" value="登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="80" width="120" height="50" as="geometry" />
         </mxCell>
@@ -188,10 +191,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="940" width="460" height="220" as="geometry" />
+          <mxGeometry x="2200" y="780" width="460" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-44" value="OnePaneCoord" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2710" y="965" width="160" height="144" as="geometry" />
+          <mxGeometry x="2250" y="805" width="160" height="144" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-45" value="+ x: number&lt;br&gt;+ y: number&lt;br&gt;+ w: number&lt;br&gt;+ h: number&lt;br&gt;+ z: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cJAQ2IT-YWqgnm6LiaBg-44">
           <mxGeometry y="26" width="160" height="84" as="geometry" />
@@ -203,7 +206,7 @@
           <mxGeometry y="118" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-52" value="oneLayoutcoords" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2930" y="965" width="150" height="144" as="geometry" />
+          <mxGeometry x="2470" y="805" width="150" height="152" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-53" value="+ layout_id: string&lt;br&gt;+ layout_name: string&lt;br&gt;+ mosic_cnts: number&lt;br&gt;+ layout_coords: Array&amp;lt;OnePaneCoord&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cJAQ2IT-YWqgnm6LiaBg-52">
           <mxGeometry y="26" width="150" height="84" as="geometry" />
@@ -212,16 +215,16 @@
           <mxGeometry y="110" width="150" height="8" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-55" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cJAQ2IT-YWqgnm6LiaBg-52">
-          <mxGeometry y="118" width="150" height="26" as="geometry" />
+          <mxGeometry y="118" width="150" height="34" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-57" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-45" target="cJAQ2IT-YWqgnm6LiaBg-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2670" y="1050" as="sourcePoint" />
-            <mxPoint x="2590" y="1050" as="targetPoint" />
+            <mxPoint x="2210" y="890" as="sourcePoint" />
+            <mxPoint x="2130" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-58" value="计算数据类图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2660" y="910" width="80" height="30" as="geometry" />
+          <mxGeometry x="2200" y="750" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-60" value="在add_one_div中将plat_layouts作为属性值给到UI中的set_option方法进行参数设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1060" width="120" height="90" as="geometry" />
