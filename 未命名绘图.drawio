@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-14T02:23:52.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NEmldemaC9R7c03pBk4J" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T02:44:10.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="z6BdFmKyfF1qjk889vPm" version="21.0.6" type="github">
   <diagram name="第 1 页" id="cYCt0g9zkRtDHQeXJBKw">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,96 @@
         </mxCell>
         <mxCell id="cJAQ2IT-YWqgnm6LiaBg-3" value="触发control.vue文件中的mounted生命周期触发main函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-4" value="在window对象上挂载&lt;br&gt;new zjsdk2()并调用以下方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-3" target="cJAQ2IT-YWqgnm6LiaBg-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-6" value="onSetup&lt;br&gt;SDK的回调其内调用了connect函数功能: 入会" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-7" value="onConnect:返回不同媒体流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-8" value="onRemoveStream:视频流断开的回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-9" value="onPrestentation:&amp;nbsp;与会者发起/结束双流的事件, 以及本地发起双流失败的事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="589" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="360" as="sourcePoint" />
+            <mxPoint x="810" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="360" as="sourcePoint" />
+            <mxPoint x="489" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649" y="360" as="sourcePoint" />
+            <mxPoint x="499" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="360" as="sourcePoint" />
+            <mxPoint x="499" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="360" as="sourcePoint" />
+            <mxPoint x="509" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-18" value="在window对象上增加layout属性并复制为sdk中layout类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="360" as="sourcePoint" />
+            <mxPoint x="414" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-20" value="makecall: 创建呼叫" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="cJAQ2IT-YWqgnm6LiaBg-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="360" as="sourcePoint" />
+            <mxPoint x="659" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-22" value="调用layout类中的init_layout_sdk方法:&amp;nbsp;&lt;br&gt;1: 提供sdk对象&lt;br&gt;2: 将视频布局到div" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJAQ2IT-YWqgnm6LiaBg-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJAQ2IT-YWqgnm6LiaBg-18" target="cJAQ2IT-YWqgnm6LiaBg-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="650" as="sourcePoint" />
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
