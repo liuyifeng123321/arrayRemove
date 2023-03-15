@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T09:32:59.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_m-kaGFNX3ODo0pD4rl2" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-15T09:36:54.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="U2wA152lTQOft0BhtxBA" version="21.0.6" type="github" pages="2">
   <diagram name="sdk2" id="cYCt0g9zkRtDHQeXJBKw">
     <mxGraphModel dx="1969" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -631,6 +631,21 @@
         </mxCell>
         <mxCell id="tOqJFdQiRRyE_BNLfph_-1" value="触发里面的get_layout_data方法用于调用服务器地址并处理数据并存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a6d5861XgbxFkQBIb9p6-4" target="tOqJFdQiRRyE_BNLfph_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="200" as="sourcePoint" />
+            <mxPoint x="440" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-3" value="存储好的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-4" value="点击会监预览按钮触发layout中的add_one_div方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-5" value="利用存储好的数据作为参数并调用set_option方法在触发ui中的set_parameter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
