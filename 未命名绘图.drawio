@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T09:58:58.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sqi-R1YMIeClmh35ZCMs" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-23T02:00:12.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="A13ApKdMjGzdKS3DDYu7" version="21.0.6" type="github" pages="2">
   <diagram name="sdk2" id="cYCt0g9zkRtDHQeXJBKw">
-    <mxGraphModel dx="1969" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -601,7 +601,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5unGKOHhGhPuUgd2Y9Oi" name="sdk3">
-    <mxGraphModel dx="1154" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -629,77 +629,92 @@
             <mxPoint x="266" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-1" value="触发里面的get_layout_data方法用于调用服务器地址并处理数据并存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-1" value="触发里面的get_layout_data方法用于调用服务器地址并处理数据并存储" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a6d5861XgbxFkQBIb9p6-4" target="tOqJFdQiRRyE_BNLfph_-1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a6d5861XgbxFkQBIb9p6-4" target="tOqJFdQiRRyE_BNLfph_-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="200" as="sourcePoint" />
             <mxPoint x="440" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-3" value="存储好的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-3" value="存储好的数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-4" value="点击会监预览按钮触发layout中的add_one_div方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-4" value="点击会监预览按钮触发layout中的add_one_div方法" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-5" value="利用存储好的数据作为参数并调用set_option方法在触发ui中的set_parameter设置参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-5" value="利用存储好的数据作为参数并调用set_option方法在触发ui中的set_parameter设置参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="450" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tOqJFdQiRRyE_BNLfph_-4" target="tOqJFdQiRRyE_BNLfph_-5">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tOqJFdQiRRyE_BNLfph_-4" target="tOqJFdQiRRyE_BNLfph_-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="440" as="sourcePoint" />
             <mxPoint x="560" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tOqJFdQiRRyE_BNLfph_-3" target="tOqJFdQiRRyE_BNLfph_-5">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tOqJFdQiRRyE_BNLfph_-3" target="tOqJFdQiRRyE_BNLfph_-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="370" as="sourcePoint" />
             <mxPoint x="670" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tOqJFdQiRRyE_BNLfph_-1" target="tOqJFdQiRRyE_BNLfph_-3">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tOqJFdQiRRyE_BNLfph_-1" target="tOqJFdQiRRyE_BNLfph_-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="440" as="sourcePoint" />
             <mxPoint x="360" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-13" value="设置并存储好的&lt;br&gt;参数" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-13" value="设置并存储好的&lt;br&gt;参数" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tOqJFdQiRRyE_BNLfph_-5" target="tOqJFdQiRRyE_BNLfph_-13">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tOqJFdQiRRyE_BNLfph_-5" target="tOqJFdQiRRyE_BNLfph_-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="470" as="sourcePoint" />
             <mxPoint x="340" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="600" as="sourcePoint" />
             <mxPoint x="560" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-16" value="利用存储好的数据在set_layout_id方法中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-16" value="利用存储好的数据在set_layout_id方法中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-17" value="在函数中通过布局id创建不同的dom实例通过new PanelUi(),完成布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-17" value="在函数中通过布局id创建不同的dom实例通过new PanelUi(),完成布局" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tOqJFdQiRRyE_BNLfph_-16" target="tOqJFdQiRRyE_BNLfph_-17">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tOqJFdQiRRyE_BNLfph_-16" target="tOqJFdQiRRyE_BNLfph_-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="600" as="sourcePoint" />
             <mxPoint x="780" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tOqJFdQiRRyE_BNLfph_-16">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="tOqJFdQiRRyE_BNLfph_-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="450" as="sourcePoint" />
             <mxPoint x="240" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOqJFdQiRRyE_BNLfph_-20" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tOqJFdQiRRyE_BNLfph_-20" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-1" value="分屏" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-2" value="调用myMosicChange方法并监听myMosicConfig.mosid_id&lt;br&gt;变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-4" value="修改分屏id及轮训等,并向子组件MosicConfigView传递参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-5" value="子组件根据currentMosicId接收分屏参数及其他数据接收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-6" value="之后调用changeViewCustom方法调用sdk内的方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="490" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
