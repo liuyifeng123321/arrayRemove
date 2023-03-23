@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T02:00:12.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="A13ApKdMjGzdKS3DDYu7" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-23T02:01:05.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QcaWok695TZOrek_uhXX" version="21.0.6" type="github" pages="2">
   <diagram name="sdk2" id="cYCt0g9zkRtDHQeXJBKw">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -707,14 +707,32 @@
         <mxCell id="pEK5kxFc1KQDSjGLEdo9-2" value="调用myMosicChange方法并监听myMosicConfig.mosid_id&lt;br&gt;变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="190" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pEK5kxFc1KQDSjGLEdo9-4" target="pEK5kxFc1KQDSjGLEdo9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pEK5kxFc1KQDSjGLEdo9-4" value="修改分屏id及轮训等,并向子组件MosicConfigView传递参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="290" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pEK5kxFc1KQDSjGLEdo9-5" target="pEK5kxFc1KQDSjGLEdo9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pEK5kxFc1KQDSjGLEdo9-5" value="子组件根据currentMosicId接收分屏参数及其他数据接收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="380" width="160" height="60" as="geometry" />
+          <mxGeometry x="1120" y="390" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pEK5kxFc1KQDSjGLEdo9-6" value="之后调用changeViewCustom方法调用sdk内的方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pEK5kxFc1KQDSjGLEdo9-1" target="pEK5kxFc1KQDSjGLEdo9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="410" as="sourcePoint" />
+            <mxPoint x="1160" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pEK5kxFc1KQDSjGLEdo9-2" target="pEK5kxFc1KQDSjGLEdo9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="160" as="sourcePoint" />
+            <mxPoint x="1210" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
