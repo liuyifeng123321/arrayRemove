@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T02:01:05.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QcaWok695TZOrek_uhXX" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-23T02:02:04.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="J95yXvC54gjPHT6iCbFD" version="21.0.6" type="github" pages="2">
   <diagram name="sdk2" id="cYCt0g9zkRtDHQeXJBKw">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,7 +719,7 @@
         <mxCell id="pEK5kxFc1KQDSjGLEdo9-5" value="子组件根据currentMosicId接收分屏参数及其他数据接收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="390" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pEK5kxFc1KQDSjGLEdo9-6" value="之后调用changeViewCustom方法调用sdk内的方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-6" value="之后调用changeViewCustom方法调用sdk内的方法进行强制分屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="490" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pEK5kxFc1KQDSjGLEdo9-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pEK5kxFc1KQDSjGLEdo9-1" target="pEK5kxFc1KQDSjGLEdo9-2">
