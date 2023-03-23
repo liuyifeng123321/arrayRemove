@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T02:02:04.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="J95yXvC54gjPHT6iCbFD" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-23T06:08:00.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="slhY1AdzrS-pkIIObCDt" version="21.0.6" type="github" pages="2">
   <diagram name="sdk2" id="cYCt0g9zkRtDHQeXJBKw">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -732,6 +732,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1210" y="160" as="sourcePoint" />
             <mxPoint x="1210" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-15" value="应用" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-16" value="点击后直接调用submitMosic方法想服务器发送修改后的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pEK5kxFc1KQDSjGLEdo9-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="pEK5kxFc1KQDSjGLEdo9-15" target="pEK5kxFc1KQDSjGLEdo9-16" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="410" as="sourcePoint" />
+            <mxPoint x="1480" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
