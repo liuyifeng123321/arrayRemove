@@ -657,6 +657,12 @@
         <mxCell id="tQmR_oRa_8na9u812lNk-29" value="零食流水查看" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="1940" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-30" value="jsonserve数据模拟" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2010" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-31" value="数据存放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="2015" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
