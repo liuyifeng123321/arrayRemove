@@ -720,6 +720,105 @@
             <mxPoint x="370" y="2230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-49" value="管理" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="2268.5" width="80" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-50" value="管理员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="709" y="2278" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-51" value="密码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="779" y="2338" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-52" value="账号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689" y="2338" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-54" value="属于" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="548.75" y="2155.25" width="80" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-55" value="申请者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="709" y="2164.75" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-56" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-32" target="tQmR_oRa_8na9u812lNk-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2350" as="sourcePoint" />
+            <mxPoint x="600" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-57" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-32" target="tQmR_oRa_8na9u812lNk-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2350" as="sourcePoint" />
+            <mxPoint x="600" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-52" target="tQmR_oRa_8na9u812lNk-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2350" as="sourcePoint" />
+            <mxPoint x="600" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-59" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-50" target="tQmR_oRa_8na9u812lNk-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2350" as="sourcePoint" />
+            <mxPoint x="600" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-60" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-51" target="tQmR_oRa_8na9u812lNk-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2350" as="sourcePoint" />
+            <mxPoint x="600" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-61" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-55" target="tQmR_oRa_8na9u812lNk-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2350" as="sourcePoint" />
+            <mxPoint x="600" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-62" value="联系方式" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="2123.25" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-63" value="地址" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2170" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-64" value="资产证明" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="829" y="2222" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-65" value="身份证号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="756.25" y="2100" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-66" value="姓名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="2100" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-55" target="tQmR_oRa_8na9u812lNk-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2250" as="sourcePoint" />
+            <mxPoint x="600" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-55" target="tQmR_oRa_8na9u812lNk-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2250" as="sourcePoint" />
+            <mxPoint x="600" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-69" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-55" target="tQmR_oRa_8na9u812lNk-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2250" as="sourcePoint" />
+            <mxPoint x="600" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-70" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-55" target="tQmR_oRa_8na9u812lNk-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="2250" as="sourcePoint" />
+            <mxPoint x="600" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQmR_oRa_8na9u812lNk-71" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tQmR_oRa_8na9u812lNk-55" target="tQmR_oRa_8na9u812lNk-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="2180" as="sourcePoint" />
+            <mxPoint x="600" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
